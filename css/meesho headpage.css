@@ -1,0 +1,120 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.com ul{
+    padding:0.9rem;
+    text-align: right;
+    width:700px;
+    margin-top:20px; ;
+}
+.com li{
+    display:inline;
+    margin:0.9rem;
+    height:20px;
+    margin-left:40px;
+}
+header{
+    display: flex;
+
+}
+input{
+    height:35px;
+    width:400px;
+    margin-top:24px;
+    margin-left: 40px;
+}
+.mine{
+    background-color:coral;
+    color:white;
+    height:70px;
+}
+i{
+color:black;
+}
+.data ul{
+    padding: 0.6rem;
+}
+.data li{
+    display: inline;
+    margin:0.5rem;
+}
+.data li a{
+    text-decoration: solid;
+    color:black;
+}
+.data li a:hover{
+    text-decoration: underline;
+    color:rgb(197, 43, 94);
+}
+.datas p{
+    margin:0.9rem;
+    display: inline;
+    margin-left:200px;
+    height:50px;
+    
+}
+.datas{
+    height:20px;
+    padding:0.9rem;
+}
+.program a {
+    margin:30px;
+    display: inline;
+    height:180px;
+}
+.program{
+    background-color: lightsalmon;
+    color:black;
+    height:250px;
+}
+.data i{
+    color:rgb(196, 29, 222)
+}
+.meesho{
+display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows:100px 100px ;
+    grid-template-areas:"a b c d e" ;
+    grid-gap:35px 35px;
+    height:500px;
+    width:1001px;
+    padding:0.7rem;
+
+}
+.watch{
+    grid-area: a;
+    height:450px;
+    width:220px;
+    border:1px solid black;
+    padding:0.6rem;
+
+}
+.mobile{
+    grid-area: b;
+    height:450px;
+    width:200px;
+    border:1px solid black;
+    padding:0.6rem;
+}
+.backet{
+    grid-area: c;
+    height:450px;
+    width:220px;
+    border:1px solid black;
+    padding:0.6rem;
+}
+.camera{
+    grid-area: d;
+    height:450px;
+    width:200px;
+    border:1px solid black;
+    padding:0.6rem;
+}
+.tv{
+grid-area: e;
+    height:450px;
+    width:200px;
+    border:1px solid black;
+    padding:0.6rem;
+}
